@@ -1,4 +1,11 @@
-canvas {
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 98vw;
+  height: 98vh;
+}
+/* canvas {
   display: block;
   margin: auto;
-}
+} */

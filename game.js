@@ -50,8 +50,8 @@ function drawGame() {
   }
 
   ctx.fillStyle = "white";
-  ctx.font = "50px Arial";
-  ctx.fillText(score, box * 2.5, box * 1.7);
+  ctx.font = "48px Arial";
+  ctx.fillText(score, box * 2, box * 1.7);
 
   let snakeX = snake[0].x;
   let snakeY = snake[0].y;
