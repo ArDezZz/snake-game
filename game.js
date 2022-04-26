@@ -11,6 +11,7 @@ let box = 32;
 
 let score = 0;
 
+let re = 0;
 let food = {
   x: Math.floor(Math.random(1) * 17 + 1) * box,
   y: Math.floor(Math.random(1) * 15 + 3) * box,
